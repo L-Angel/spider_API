@@ -1,0 +1,1070 @@
+生活常用
+---- 手机号码归属地 https://www.juhe.cn/docs/api/id/11
+---- ---- 手机归属地查询 https://www.juhe.cn/docs/api/id/11
+---- ---- ---- 接口地址 http://apis.juhe.cn/mobile/get
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/mobile/get?phone=13429667914&key=您申请的KEY
+---- 菜谱大全 https://www.juhe.cn/docs/api/id/46
+---- ---- 菜谱大全 https://www.juhe.cn/docs/api/id/46
+---- ---- ---- 接口地址 http://apis.juhe.cn/cook/query.php
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://apis.juhe.cn/cook/query?key=&menu=%E8%A5%BF%E7%BA%A2%E6%9F%BF&rn=10&pn=3
+---- ---- 分类标签列表 https://www.juhe.cn/docs/api/id/46/aid/129
+---- ---- ---- 接口地址 http://apis.juhe.cn/cook/category
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://apis.juhe.cn/cook/category?key=您申请的KEY
+---- ---- 按标签检索菜谱 https://www.juhe.cn/docs/api/id/46/aid/130
+---- ---- ---- 接口地址 http://apis.juhe.cn/cook/index
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://apis.juhe.cn/cook/index?key=您申请的KEY&cid=1
+---- ---- 按菜谱ID查看详细 https://www.juhe.cn/docs/api/id/46/aid/131
+---- ---- ---- 接口地址 http://apis.juhe.cn/cook/queryid
+---- ---- ---- 支持格式 xml/json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://apis.juhe.cn/cook/queryid?key=您申请的KEY&id=1001
+---- 常用快递 https://www.juhe.cn/docs/api/id/43
+---- ---- 常用快递查询API https://www.juhe.cn/docs/api/id/43
+---- ---- ---- 接口地址 http://v.juhe.cn/exp/index
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http post/get
+---- ---- ---- 请求示例 http://v.juhe.cn/exp/index?key=key&com=sf&no=575677355677
+---- ---- 快递公司编号对照表 https://www.juhe.cn/docs/api/id/43/aid/103
+---- ---- ---- 接口地址 http://v.juhe.cn/exp/com
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 http post get
+---- ---- ---- 请求示例 http://v.juhe.cn/exp/com?key=key
+---- 身份证查询 https://www.juhe.cn/docs/api/id/38
+---- ---- 身份证信息查询 https://www.juhe.cn/docs/api/id/38
+---- ---- ---- 接口地址 http://apis.juhe.cn/idcard/index
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/idcard/index?key=您申请的KEY&cardno;=330326198903081211
+---- ---- 身份证泄漏查询 https://www.juhe.cn/docs/api/id/38/aid/83
+---- ---- ---- 接口地址 http://apis.juhe.cn/idcard/leak
+---- ---- ---- 支持格式 xml/json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/idcard/leak?key=您申请的KEY&cardno;=330326198903081211&dtype;=json
+---- ---- 身份证挂失查询 https://www.juhe.cn/docs/api/id/38/aid/84
+---- ---- ---- 接口地址 http://apis.juhe.cn/idcard/loss
+---- ---- ---- 支持格式 xml/json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/idcard/loss?key=您申请的KEY&cardno;=330326198903081211&dtype;=xml
+---- 新闻 https://www.juhe.cn/docs/api/id/138
+---- ---- 新闻检索 https://www.juhe.cn/docs/api/id/138
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/news/query
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/news/query?key=&q=%E6%99%AE%E4%BA%AC%E5%A4%B1%E8%B8%AA
+---- ---- 实时热点 https://www.juhe.cn/docs/api/id/138/aid/426
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/news/words
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/news/words?key=
+---- 笑话大全 https://www.juhe.cn/docs/api/id/95
+---- ---- 按更新时间查询笑话 https://www.juhe.cn/docs/api/id/95
+---- ---- ---- 接口地址 http://japi.juhe.cn/joke/content/list.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/joke/content/list.from?key=您申请的KEY&page=2&pagesize=10&sort=asc&time=1418745237
+---- ---- 最新笑话 https://www.juhe.cn/docs/api/id/95/aid/281
+---- ---- ---- 接口地址 http://japi.juhe.cn/joke/content/text.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/joke/content/text.from?key=您申请的KEY&page=1&pagesize=10
+---- ---- 按更新时间查询趣图 https://www.juhe.cn/docs/api/id/95/aid/282
+---- ---- ---- 接口地址 http://japi.juhe.cn/joke/img/list.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/joke/img/list.from?key=您申请的KEY&page=2&pagesize=10&sort=asc&time=1418745237
+---- ---- 最新趣图 https://www.juhe.cn/docs/api/id/95/aid/283
+---- ---- ---- 接口地址 http://japi.juhe.cn/joke/img/text.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/joke/img/text.from?key=您申请的KEY&page=1&pagesize=10
+---- IP地址 https://www.juhe.cn/docs/api/id/1
+---- ---- 根据IP/域名查询地址 https://www.juhe.cn/docs/api/id/1
+---- ---- ---- 接口地址 http://apis.juhe.cn/ip/ip2addr
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/ip/ip2addr?ip=www.juhe.cn&key=appkey
+---- 餐饮美食 https://www.juhe.cn/docs/api/id/45
+---- ---- 检索周边美食 https://www.juhe.cn/docs/api/id/45
+---- ---- ---- 接口地址 http://apis.juhe.cn/catering/query
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://apis.juhe.cn/catering/query?key=key&lng;=121.538123&lat;=31.677132&radius;=2000
+---- ---- 按城市检索 https://www.juhe.cn/docs/api/id/45/aid/286
+---- ---- ---- 接口地址 http://apis.juhe.cn/catering/querybycity
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://apis.juhe.cn/catering/querybycity?key=&city=%E5%8C%97%E4%BA%AC&page=1
+---- 苹果序列号 https://www.juhe.cn/docs/api/id/37
+---- ---- 苹果序列号/IMEI号查询 https://www.juhe.cn/docs/api/id/37
+---- ---- ---- 接口地址 http://apis.juhe.cn/appleinfo/index
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/appleinfo/index?sn=C37JRDNTDTWD&key=您申请的APPKEY
+---- 中国彩票开奖结果 https://www.juhe.cn/docs/api/id/53
+---- ---- 彩票开奖结果查询 https://www.juhe.cn/docs/api/id/53
+---- ---- ---- 接口地址 http://v.juhe.cn/lottery/query
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/lottery/query?key=xxx&lotteryid=2&date=2014-03-03
+---- ---- 历史开奖数据查询 https://www.juhe.cn/docs/api/id/53/aid/119
+---- ---- ---- 接口地址 http://v.juhe.cn/lottery/history
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/lottery/history?key=xxxxx&lotteryid=2&year=2013
+---- ---- 支持彩种列表 https://www.juhe.cn/docs/api/id/53/aid/120
+---- ---- ---- 接口地址 http://v.juhe.cn/lottery/lolist
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/lottery/lolist.php?key=xxxxx
+---- 小说大全 https://www.juhe.cn/docs/api/id/109
+---- ---- 根据书库号和推荐项目查询 https://www.juhe.cn/docs/api/id/109
+---- ---- ---- 接口地址 http://japi.juhe.cn/book/recommend.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/book/recommend.from?key=您申请的key&cat=1&ranks=1
+---- ---- 根据书库号和小说名查询 https://www.juhe.cn/docs/api/id/109/aid/322
+---- ---- ---- 接口地址 http://japi.juhe.cn/book/bookname.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/book/bookname.from?bookname=飘&cat=2&key=您申请的key
+---- ---- 根据书库号小说代码和页数查询 https://www.juhe.cn/docs/api/id/109/aid/323
+---- ---- ---- 接口地址 http://japi.juhe.cn/book/content.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://japi.juhe.cn/book/content.from?code=2278&cat=2&page=10&key=您申请的key
+---- 笑话大全 https://www.juhe.cn/docs/api/id/121
+---- ---- 返回接口类型 https://www.juhe.cn/docs/api/id/121
+---- ---- ---- 接口地址 http://japi.juhe.cn/funny/type.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://japi.juhe.cn/funny/type.from?key=您申请的key
+---- ---- 根据接口序号查询 https://www.juhe.cn/docs/api/id/121/aid/371
+---- ---- ---- 接口地址 http://japi.juhe.cn/funny/list.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://japi.juhe.cn/funny/list.from?cat=5&st=0&count=20&key=您申请的key
+---- ---- 按类搜索接口 https://www.juhe.cn/docs/api/id/121/aid/372
+---- ---- ---- 接口地址 http://japi.juhe.cn/funny/search.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://japi.juhe.cn/funny/search.from?st=0&count=10&term=hi&key=您申请的key
+---- ---- 参考答案接口 https://www.juhe.cn/docs/api/id/121/aid/373
+---- ---- ---- 接口地址 http://japi.juhe.cn/funny/answer.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://japi.juhe.cn/funny/answer.from?id=109885&key=您申请的key
+---- 实时停车场数据 https://www.juhe.cn/docs/api/id/133
+---- ---- 根据坐标获取附近停车场 https://www.juhe.cn/docs/api/id/133
+---- ---- ---- 接口地址 http://japi.juhe.cn/park/nearPark.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/park/nearPark.from?JD=116.337833&WD=39.992772&TCCFL=4&JLCX=500&SDXX=1&key=yourkey
+---- ---- 获取停车场的基本信息 https://www.juhe.cn/docs/api/id/133/aid/729
+---- ---- ---- 接口地址 http://japi.juhe.cn/park/baseInfo.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/park/baseInfo.from?CCID=23070,52114&key=yourkey
+---- ---- 获取停车场出入口信息 https://www.juhe.cn/docs/api/id/133/aid/730
+---- ---- ---- 接口地址 http://japi.juhe.cn/park/churukou.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/park/churukou.from?CCID=23070&key=YOURKEY
+---- ---- 获取未来预测指数 https://www.juhe.cn/docs/api/id/133/aid/731
+---- ---- ---- 接口地址 http://japi.juhe.cn/park/future.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/park/future.from?CCID=23070&YCSJ=1&key=YOURKEY
+---- ---- 获取支持城市列表 https://www.juhe.cn/docs/api/id/133/aid/732
+---- ---- ---- 接口地址 http://japi.juhe.cn/park/citylist.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/park/citylist.from?key=yourKey
+---- 万年历 https://www.juhe.cn/docs/api/id/177
+---- ---- 获取当天的详细信息 https://www.juhe.cn/docs/api/id/177
+---- ---- ---- 接口地址 http://japi.juhe.cn/calendar/day
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/calendar/day?date=2015-1-1&key=您申请的appKey
+---- ---- 获取近期假期 https://www.juhe.cn/docs/api/id/177/aid/600
+---- ---- ---- 接口地址 http://japi.juhe.cn/calendar/month
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/calendar/month?year-month=2015-1&key=您申请的appKey
+---- ---- 获取当年的假期列表 https://www.juhe.cn/docs/api/id/177/aid/601
+---- ---- ---- 接口地址 http://japi.juhe.cn/calendar/year
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/calendar/year?year=2015&key=您申请的appKey
+---- 商品比价 https://www.juhe.cn/docs/api/id/137
+---- ---- 支持商城列表查询 https://www.juhe.cn/docs/api/id/137
+---- ---- ---- 接口地址 http://japi.juhe.cn/manmanmai/allsites.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get 
+---- ---- ---- 请求示例 http://japi.juhe.cn/manmanmai/allsites.from?key=YOURKEY
+---- ---- 简单比价模式查询 https://www.juhe.cn/docs/api/id/137/aid/739
+---- ---- ---- 接口地址 http://japi.juhe.cn/manmanmai/simple.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://japi.juhe.cn/manmanmai/simple.from?key=YOURKEY&keyword=%E5%B0%8F%E7%B1%B3
+---- ---- 比价复杂模式查询 https://www.juhe.cn/docs/api/id/137/aid/740
+---- ---- ---- 接口地址 http://japi.juhe.cn/manmanmai/complex.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://japi.juhe.cn/manmanmai/complex.from?key=YOURKEY&keyword=%E5%B0%8F%E7%B1%B3&PageSize=6&PageNum=10
+---- 微信精选 https://www.juhe.cn/docs/api/id/147
+---- ---- 微信精选列表 https://www.juhe.cn/docs/api/id/147
+---- ---- ---- 接口地址 http://v.juhe.cn/weixin/query
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/weixin/query?key=您申请的KEY
+---- 电视节目时间表 https://www.juhe.cn/docs/api/id/129
+---- ---- 电视台分类 https://www.juhe.cn/docs/api/id/129
+---- ---- ---- 接口地址 http://japi.juhe.cn/tv/getCategory
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://japi.juhe.cn/tv/getCategory?key=您申请的KEY
+---- ---- 电视频道列表 https://www.juhe.cn/docs/api/id/129/aid/409
+---- ---- ---- 接口地址 http://japi.juhe.cn/tv/getChannel
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://japi.juhe.cn/tv/getChannel?pId=1&key=您申请的KEY
+---- ---- 电视台节目单列表 https://www.juhe.cn/docs/api/id/129/aid/410
+---- ---- ---- 接口地址 http://japi.juhe.cn/tv/getProgram
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://japi.juhe.cn/tv/getProgram?code=cctv5&date=&key=您申请的KEY
+---- 邮编查询 https://www.juhe.cn/docs/api/id/66
+---- ---- 邮编查询地名 https://www.juhe.cn/docs/api/id/66
+---- ---- ---- 接口地址 http://v.juhe.cn/postcode/query
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/postcode/query?postcode=215001&key=申请的KEY
+---- ---- 省份城市区域列表 https://www.juhe.cn/docs/api/id/66/aid/177
+---- ---- ---- 接口地址 http://v.juhe.cn/postcode/pcd
+---- ---- ---- 支持格式 xml/json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/postcode/pcd?key=您申请的KEY
+---- ---- 地名查询邮编 https://www.juhe.cn/docs/api/id/66/aid/178
+---- ---- ---- 接口地址 http://v.juhe.cn/postcode/search
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/postcode/search.php?key=您申请的KEY&pid=15&cid=205&did=2125&q=
+---- 律师查询 https://www.juhe.cn/docs/api/id/83
+---- ---- 按省份查询律师 https://www.juhe.cn/docs/api/id/83
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/pro
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/pro?dtype=json&st=0&count=2&pro=%E6%B1%9F%E8%8B%8F&key=您申请的AppKey
+---- ---- 按城市查询律师 https://www.juhe.cn/docs/api/id/83/aid/218
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/city
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/city?dtype=json&st=0&count=2&city=%E8%8B%8F%E5%B7%9E&key=您申请的AppKey
+---- ---- 按相似姓名查询律师 https://www.juhe.cn/docs/api/id/83/aid/219
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/name
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/name?dtype=json&st=0&count=2&name=%E5%AE%89&key=您申请的AppKey
+---- ---- 按专长领域查询律师 https://www.juhe.cn/docs/api/id/83/aid/220
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/spec
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/spec?dtype=json&st=0&count=2&spec=%E5%A9%9A%E5%A7%BB&key=您申请的AppKey
+---- ---- 随机查询律师 https://www.juhe.cn/docs/api/id/83/aid/221
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/rand
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/rand?dtype=json&count=2&key=您申请的AppKey
+---- ---- 按手机号码查询律师 https://www.juhe.cn/docs/api/id/83/aid/222
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/mobile
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/mobile?dtype=json&st=0&count=2&mobile=13806221792&key=您申请的AppKey
+---- ---- 由省份查询城市 https://www.juhe.cn/docs/api/id/83/aid/223
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/citiesByPro
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/citiesByPro?dtype=json&pro=%E6%96%B0%E7%96%86&key=您申请的AppKey (务必区分大小写)
+---- ---- 查询专业领域 https://www.juhe.cn/docs/api/id/83/aid/224
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/specs
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/specs?dtype=json&key=您申请的AppKey
+---- ---- 查询省份列表 https://www.juhe.cn/docs/api/id/83/aid/225
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/pros
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/pros?dtype=json&key=您申请的AppKey
+---- ---- 按姓名查询律师辩词 https://www.juhe.cn/docs/api/id/83/aid/226
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/argsByName
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/argsByName?dtype=json&name=%E7%8E%8B%E5%85%8B%E6%98%A5&st=0&count=10&key=您申请的AppKey (务必区分大小写)
+---- ---- 按关键词查询律师辩词 https://www.juhe.cn/docs/api/id/83/aid/227
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/argsByTerm
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/argsByTerm?dtype=json&st=0&count=2&term=%E7%A6%BB%E5%A9%9A&key=您申请的AppKey (务必区分大小写)
+---- ---- 随机查询律师辩词 https://www.juhe.cn/docs/api/id/83/aid/228
+---- ---- ---- 接口地址 http://op.juhe.cn/lawyers/argsByRand
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://op.juhe.cn/lawyers/argsByRand?dtype=json&count=2&key=您申请的AppKey (务必区分大小写)
+---- 图书ISBN查询 https://www.juhe.cn/docs/api/id/136
+---- ---- 图书ISBN检索 https://www.juhe.cn/docs/api/id/136
+---- ---- ---- 接口地址 http://v.juhe.cn/ebook/isbn
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/ebook/isbn?key=APPKEY&isbn=9787111291954
+---- ---- 图书ID检索详细信息 https://www.juhe.cn/docs/api/id/136/aid/432
+---- ---- ---- 接口地址 http://v.juhe.cn/ebook/ebookId
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/ebook/ebookId?key=APPKEY&bookid=10059817&site=jd
+---- ---- 图书关键字检索 https://www.juhe.cn/docs/api/id/136/aid/433
+---- ---- ---- 接口地址 http://v.juhe.cn/ebook/ebookSearch
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/ebook/ebookSearch?key=APPKEY&q=mysql&site=jd
+---- 银行卡二元素检测 https://www.juhe.cn/docs/api/id/188
+---- ---- 银行卡实名认证查询 https://www.juhe.cn/docs/api/id/188
+---- ---- ---- 接口地址 http://v.juhe.cn/verifybankcard/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/verifybankcard/query?key=&realname=%E8%91%A3%E5%A5%BD&bankcard=6217003180000902693
+---- 恋爱物语 https://www.juhe.cn/docs/api/id/116
+---- ---- 恋爱物语 https://www.juhe.cn/docs/api/id/116
+---- ---- ---- 接口地址 http://japi.juhe.cn/love/list.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/love/list.from?key=您申请的key&count=10&cat=1
+---- 二维码在线生成 https://www.juhe.cn/docs/api/id/189
+---- ---- 在线生成二维码 https://www.juhe.cn/docs/api/id/189
+---- ---- ---- 接口地址 http://liantu.api.juhe.cn/api.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://liantu.api.juhe.cn/api.php?text=JuheData
+天气预报
+---- 全国天气预报 https://www.juhe.cn/docs/api/id/39
+---- ---- 根据城市名/id查询天气 https://www.juhe.cn/docs/api/id/39
+---- ---- ---- 接口地址 http://v.juhe.cn/weather/index
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/weather/index?format=2&cityname=%E8%8B%8F%E5%B7%9E&key=您申请的KEY
+---- ---- 天气种类及标识列表 https://www.juhe.cn/docs/api/id/39/aid/117
+---- ---- ---- 接口地址 http://v.juhe.cn/weather/uni
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://v.juhe.cn/weather/uni?key=xxxxxx
+---- ---- 根据IP查询天气 https://www.juhe.cn/docs/api/id/39/aid/132
+---- ---- ---- 接口地址 http://v.juhe.cn/weather/ip
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/weather/ip?format=2&key=您申请的KEY&ip=58.215.185.154
+---- ---- 根据GPS坐标查询天气 https://www.juhe.cn/docs/api/id/39/aid/133
+---- ---- ---- 接口地址 http://v.juhe.cn/weather/geo
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/weather/geo?format=2&key=您申请的KEY&lon=116.39277&lat=39.933748
+---- ---- 城市天气三小时预报 https://www.juhe.cn/docs/api/id/39/aid/134
+---- ---- ---- 接口地址 http://v.juhe.cn/weather/forecast3h
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http post/get
+---- ---- ---- 请求示例 http://v.juhe.cn/weather/forecast3h.php?cityname=%E4%B8%8A%E6%B5%B7&key=申请的KEY
+---- ---- 支持城市列表 https://www.juhe.cn/docs/api/id/39/aid/167
+---- ---- ---- 接口地址 http://v.juhe.cn/weather/citys
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://v.juhe.cn/weather/citys?key=您申请的KEY
+---- 城市污染查询 https://www.juhe.cn/docs/api/id/224
+---- ---- 支持城市列表 https://www.juhe.cn/docs/api/id/224
+---- ---- ---- 接口地址 http://pollution.api.juhe.cn/jhapi/pollution/cityList
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://pollution.api.juhe.cn/jhapi/pollution/cityList?key=您申请的KEY
+---- ---- 污染源排放口列表 https://www.juhe.cn/docs/api/id/224/aid/787
+---- ---- ---- 接口地址 http://pollution.api.juhe.cn/jhapi/pollution/sites
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://pollution.api.juhe.cn/jhapi/pollution/sites
+---- ---- 城市污染源列表 https://www.juhe.cn/docs/api/id/224/aid/788
+---- ---- ---- 接口地址 http://pollution.api.juhe.cn/jhapi/pollution/distribution
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://pollution.api.juhe.cn/jhapi/pollution/distribution?city=支持城市编码&key=您申请的KEY
+---- ---- 获取排口排放情况 https://www.juhe.cn/docs/api/id/224/aid/789
+---- ---- ---- 接口地址 http://pollution.api.juhe.cn/jhapi/pollution/loads
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://pollution.api.juhe.cn/jhapi/pollution/loads?siteCode=排口编号&key=您申请的KEY
+---- 空气质量 https://www.juhe.cn/docs/api/id/33
+---- ---- 城市空气质量 https://www.juhe.cn/docs/api/id/33
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/air/cityair
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/air/cityair?city=城市名称&key=您申请的APPKEY值
+---- ---- 城市空气PM2.5指数 https://www.juhe.cn/docs/api/id/33/aid/79
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/air/pm
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/air/pm?city=城市名称&key=您申请的APPKEY值
+---- ---- 城市辐射指数 https://www.juhe.cn/docs/api/id/33/aid/86
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/air/radia
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/air/radia?city=城市名称&num=页码&key=您申请的APPKEY值
+---- ---- 城市空气质量-城市列表 https://www.juhe.cn/docs/api/id/33/aid/337
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/air/airCities
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/air/airCities?key=您申请的APPKEY值
+---- ---- 城市空气PM2.5指数-城市列表 https://www.juhe.cn/docs/api/id/33/aid/338
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/air/pmCities
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/air/pmCities?key=您申请的APPKEY值
+---- 天气预报 https://www.juhe.cn/docs/api/id/73
+---- ---- 根据城市查询天气 https://www.juhe.cn/docs/api/id/73
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/weather/query
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/weather/query?cityname=%E6%B8%A9%E5%B7%9E&key=您申请的KEY
+---- 水质量 https://www.juhe.cn/docs/api/id/34
+---- ---- 流域查询水质量 https://www.juhe.cn/docs/api/id/34
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/water/river
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/water/river?river=流域名称&key;=您申请的APPKEY值
+---- ---- 监测站点查询水质量 https://www.juhe.cn/docs/api/id/34/aid/78
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/water/state
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/water/state?state=监测站点名称&key;=您申请的APPKEY值
+---- ---- 监测站点列表 https://www.juhe.cn/docs/api/id/34/aid/674
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/environment/water/stateList
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/environment/water/stateList?key=key
+---- 7*24小时城市天气空气质量预报 https://www.juhe.cn/docs/api/id/226
+---- ---- 根据输入区号查询实况天气数据 https://www.juhe.cn/docs/api/id/226
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/real_time_weather.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/real_time_weather.php?areaid=101010100&key=YOURKEY
+---- ---- 逐小时预报天气数据 https://www.juhe.cn/docs/api/id/226/aid/821
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/weather_byHour_areaid.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/weather_byHour_areaid.php?areaid=101010100&startTime=2016011501&endTime=2016011714&key=YOURKEY
+---- ---- 15天概览天气预报数据 https://www.juhe.cn/docs/api/id/226/aid/822
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/15_area.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/15_area.php?areaid=101010100&startTime=20160116&endTime=20160201&key=YOURKEY
+---- ---- 城市实况指数数据 https://www.juhe.cn/docs/api/id/226/aid/823
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/exponential_byAreaId.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/exponential_byAreaId.php?areaid=101010100&key=YOURKEY
+---- ---- 实况空气质量数据 https://www.juhe.cn/docs/api/id/226/aid/824
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/live_air.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/live_air.php?key=YOURKEY
+---- ---- 根据区号逐小时查询AQI https://www.juhe.cn/docs/api/id/226/aid/825
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/aqi_byAreaid.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/aqi_byAreaid.php?key=YOURKEY&areaid=101010100&startTime=2016011612&endTime=2016011613
+---- ---- 根据经纬度逐小时查询AQI https://www.juhe.cn/docs/api/id/226/aid/826
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/aqi_byCoo.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/aqi_byCoo.php?key=YOURKEY&lat=31.2343&lon=121.1234&startTime=2016011612&endTime=2016011613
+---- ---- 根据地区编码查询每日AQI 均值 https://www.juhe.cn/docs/api/id/226/aid/827
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/aqi_average_byAreaid.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/aqi_average_byAreaid.php?key=YOURKEY&areaid=101010100&startTime=20160116&endTime=20160117
+---- ---- 根据经纬度查询每日AQI 均值 https://www.juhe.cn/docs/api/id/226/aid/828
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/aqi_average_byCoor.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/aqi_average_byCoor.php?key=YOURKEY&lat=21.34223&lon=121.1212&startTime=20160116&endTime=20160117
+---- ---- 根据地区编码查询逐小时分量数据 https://www.juhe.cn/docs/api/id/226/aid/829
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/fen_ByAreaid.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/fen_ByAreaid.php?key=YOURKEY&areaid=101010100&startTime=2016011601&endTime=2016011603
+---- ---- 根据经纬度查询逐小时数据 https://www.juhe.cn/docs/api/id/226/aid/830
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/fen_byCoor.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/fen_byCoor.php?key=YOURKEY&lat=21.1212&lon=121.1212&startTime=2016011601&endTime=2016011603
+---- ---- 根据地区编码查询每日均值分量数据 https://www.juhe.cn/docs/api/id/226/aid/831
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/fen_average_byAreaid.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/fen_average_byAreaid.php?key=YOURKEY&areaid=101010100&startTime=20160116&endTime=20160117
+---- ---- 根据经纬度查询每日均值分量数据 https://www.juhe.cn/docs/api/id/226/aid/832
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/fen_average_byCoor.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/fen_average_byCoor.php?key=YOURKEY&lat=31.1212&lon=121.1212&startTime=20160116&endTime=20160117
+---- ---- 地区信息列表 https://www.juhe.cn/docs/api/id/226/aid/833
+---- ---- ---- 接口地址 http://v.juhe.cn/xiangji_weather/areaList.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/xiangji_weather/areaList.php?key=YOURKEY
+---- 灾害预警 https://www.juhe.cn/docs/api/id/228
+---- ---- 支持省份列表 https://www.juhe.cn/docs/api/id/228
+---- ---- ---- 接口地址 http://DisasterEarlyWarning.api.juhe.cn/jhapi/weather/provincelist
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://DisasterEarlyWarning.api.juhe.cn/jhapi/weather/provincelist
+---- ---- 各省气象台列表 https://www.juhe.cn/docs/api/id/228/aid/846
+---- ---- ---- 接口地址 http://DisasterEarlyWarning.api.juhe.cn/jhapi/weather/stationlist
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://DisasterEarlyWarning.api.juhe.cn/jhapi/weather/stationlist?province=330000
+---- ---- 灾害预警内容 https://www.juhe.cn/docs/api/id/228/aid/847
+---- ---- ---- 接口地址 http://DisasterEarlyWarning.api.juhe.cn/jhapi/weather/earlywarning
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://DisasterEarlyWarning.api.juhe.cn/jhapi/weather/earlywarning?sitecode=330100
+车辆服务
+---- 车系查询 https://www.juhe.cn/docs/api/id/74
+---- ---- 车系信息查询 https://www.juhe.cn/docs/api/id/74
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/car/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/car/query?key=您申请的APPKEY&car=%E9%80%94%E8%A7%82
+---- ---- 车辆品牌查询 https://www.juhe.cn/docs/api/id/74/aid/369
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/car/brand
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/car/brand?key=APPKEY&brand=%E7%8E%9B%E8%8E%8E%E6%8B%89%E8%92%82
+---- 全国车辆违章 https://www.juhe.cn/docs/api/id/36
+---- ---- 获取支持城市参数接口 https://www.juhe.cn/docs/api/id/36
+---- ---- ---- 接口地址 http://v.juhe.cn/wz/citys
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://v.juhe.cn/wz/citys?key=key
+---- ---- 请求违章查询接口 https://www.juhe.cn/docs/api/id/36/aid/101
+---- ---- ---- 接口地址 http://v.juhe.cn/wz/query
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 post get
+---- ---- ---- 请求示例 http://v.juhe.cn/wz/query?city=SH&hphm=苏L50A11&engineno=123456&key=key
+---- ---- 接口剩余请求次数查询 https://www.juhe.cn/docs/api/id/36/aid/116
+---- ---- ---- 接口地址 http://v.juhe.cn/wz/status
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://v.juhe.cn/wz/status?key=xxxxxxx
+---- 全国加油站油价 https://www.juhe.cn/docs/api/id/7
+---- ---- 按城市检索加油站 https://www.juhe.cn/docs/api/id/7
+---- ---- ---- 接口地址 http://apis.juhe.cn/oil/region
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 post/get
+---- ---- ---- 请求示例 http://apis.juhe.cn/oil/region?key=您申请的APPKEY&format=2&city=%E5%8C%97%E4%BA%AC%E5%B8%82
+---- ---- 检索周边加油站 https://www.juhe.cn/docs/api/id/7/aid/18
+---- ---- ---- 接口地址 http://apis.juhe.cn/oil/local
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://apis.juhe.cn/oil/local?key=您申请的APPKEY&lon=116.403119&lat=39.916042&format=2&r=3000
+---- 车型配件数据 https://www.juhe.cn/docs/api/id/154
+---- ---- 获取所有品牌列表 https://www.juhe.cn/docs/api/id/154
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=getCarAllBrand&key=
+---- ---- 根据汽车品牌查询车系 https://www.juhe.cn/docs/api/id/154/aid/756
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=findSeriesByBrandId&key=&brandid=27
+---- ---- 根据车系查询车型排量年款 https://www.juhe.cn/docs/api/id/154/aid/757
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=findExhaustVolume&key=&sid=196
+---- ---- 根据车系查询生产年份与月份 https://www.juhe.cn/docs/api/id/154/aid/758
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=getRelateYearBySid&key=&sid=1174
+---- ---- 根据生产年份查询排量 https://www.juhe.cn/docs/api/id/154/aid/759
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=getExhaustVolumeByYear&key=&sid=1174&year=2012&month=5
+---- ---- 根据车型id查询车型详情 https://www.juhe.cn/docs/api/id/154/aid/760
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=carModelInfoById&key=&mid=10
+---- ---- 根据车型信息查询车型图片 https://www.juhe.cn/docs/api/id/154/aid/761
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=vehicleImage&key=&mid=10
+---- ---- 配件综合搜索 https://www.juhe.cn/docs/api/id/154/aid/762
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=search&key=&keyword=%E5%AE%9D%E6%9D%A5
+---- ---- 配件所有三级分类查询 https://www.juhe.cn/docs/api/id/154/aid/764
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=queryAllAccName&key=
+---- ---- 配件所有品牌查询 https://www.juhe.cn/docs/api/id/154/aid/765
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=findAccAllBrand&key=
+---- ---- 配件信息列表查询 https://www.juhe.cn/docs/api/id/154/aid/766
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=accInfoQuery&key=&accId=000003&accName=%E5%88%B9%E8%BD%A6%E7%89%87
+---- ---- 配件适配车型查询 https://www.juhe.cn/docs/api/id/154/aid/767
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=findAccRelateModel&key=&accId=000003
+---- ---- 配件价格查询 https://www.juhe.cn/docs/api/id/154/aid/768
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=accPrice&key=&accId=000001
+---- ---- 配件公共属性查询 https://www.juhe.cn/docs/api/id/154/aid/769
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=commonProperties&key=&accId=000001
+---- ---- 配件私有属性查询 https://www.juhe.cn/docs/api/id/154/aid/770
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=specialProperties&key=&accId=000001
+---- ---- 配件图片查询 https://www.juhe.cn/docs/api/id/154/aid/771
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=accImage&key=&accId=000001
+---- ---- 配件详情页描述图片 https://www.juhe.cn/docs/api/id/154/aid/772
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/acc/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/acc/query?action=accDetaileImage&key=&accId=000001
+---- ---- 根据车型id查询保养周期 https://www.juhe.cn/docs/api/id/154/aid/773
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=getMaintainByMid&key=2cb3206b5f972952a391eb3bf30fe7bc&mid=2028
+---- ---- 按里程查询保养详情 https://www.juhe.cn/docs/api/id/154/aid/774
+---- ---- ---- 接口地址 http://v.juhe.cn/carzone/series/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/carzone/series/query?action=getMaintenanceByMil&key=&mid=11239&mileague=10000
+---- 全国省市今日油价 https://www.juhe.cn/docs/api/id/48
+---- ---- 全国省市今日油价 https://www.juhe.cn/docs/api/id/48
+---- ---- ---- 接口地址 http://apis.juhe.cn/cnoil/oil_city
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://apis.juhe.cn/cnoil/oil_city?key=你申请的key
+---- 驾照题库 https://www.juhe.cn/docs/api/id/183
+---- ---- 题库接口 https://www.juhe.cn/docs/api/id/183
+---- ---- ---- 接口地址 http://api2.juheapi.com/jztk/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://api2.juheapi.com/jztk/query?subject=1&model=c1&key=您申请的appKey&testType=rand
+---- ---- answer字段对应答案 https://www.juhe.cn/docs/api/id/183/aid/651
+---- ---- ---- 接口地址 http://api2.juheapi.com/jztk/answers
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://api2.juheapi.com/jztk/answers?key=您申请的appKey
+---- 违章直连通道 https://www.juhe.cn/docs/api/id/126
+---- ---- 支持城市及查询条件 https://www.juhe.cn/docs/api/id/126
+---- ---- ---- 接口地址 http://v.juhe.cn/wzcxy/citys
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://v.juhe.cn/wzcxy/citys?key=您申请的APPKEY
+---- ---- 查询违章 https://www.juhe.cn/docs/api/id/126/aid/407
+---- ---- ---- 接口地址 http://v.juhe.cn/wzcxy/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/wzcxy/query?key=您申请的APPKEY&carno=%E4%BA%ACF12345&cityid=2&engineno=123456
+---- 免费出行保险 https://www.juhe.cn/docs/api/id/179
+---- ---- 提交信息,获取验证码 https://www.juhe.cn/docs/api/id/179
+---- ---- ---- 接口地址 http://japi.juhe.cn/carInsuranceGift/check
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/carInsuranceGift/check?company=聚合数据&realname=魏**&mobile=1516152****&gender=M&birth=1989-01-02&product=WYCX&idcard=3203811989********&key=您申请的appKey
+---- ---- 获取车辆赠险 https://www.juhe.cn/docs/api/id/179/aid/610
+---- ---- ---- 接口地址 http://japi.juhe.cn/carInsuranceGift/gift
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/carInsuranceGift/gift?mobile=1516152****&key=您申请的appKey&verification=729408
+---- 尾号限行 https://www.juhe.cn/docs/api/id/182
+---- ---- 支持城市列表 https://www.juhe.cn/docs/api/id/182
+---- ---- ---- 接口地址 http://v.juhe.cn/xianxing/citys
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://v.juhe.cn/xianxing/citys?key=4
+---- ---- 尾号限行查询 https://www.juhe.cn/docs/api/id/182/aid/648
+---- ---- ---- 接口地址 http://v.juhe.cn/xianxing/index
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http post/get
+---- ---- ---- 请求示例 http://v.juhe.cn/xianxing/index?key=&city=beijing&type=1
+---- VIN车架号车辆识别码查询 https://www.juhe.cn/docs/api/id/194
+---- ---- VIN车架号查询 https://www.juhe.cn/docs/api/id/194
+---- ---- ---- 接口地址 http://getVIN.api.juhe.cn/CarManagerServer/getVINFormat
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://getVIN.api.juhe.cn/CarManagerServer/getVINFormat?VIN=LSGGH59L9DS157185
+---- 全国车辆限行查询 https://www.juhe.cn/docs/api/id/198
+---- ---- 全国车辆限行查询 https://www.juhe.cn/docs/api/id/198
+---- ---- ---- 接口地址 http://getLimit.api.juhe.cn/CarManagerServer/getLimit
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 post
+---- ---- ---- 请求示例 http://getLimit.api.juhe.cn/CarManagerServer/getLimit?city=beijing&date=2015-11-02
+---- 车辆故障码DTC查询 https://www.juhe.cn/docs/api/id/195
+---- ---- 车辆故障码DTC查询 https://www.juhe.cn/docs/api/id/195
+---- ---- ---- 接口地址 http://getDTC.api.juhe.cn/CarManagerServer/getDTC
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 post
+---- ---- ---- 请求示例 http://getDTC.api.juhe.cn/CarManagerServer/getDTC?code=P0108
+位置信息服务
+---- 移动联通基站 https://www.juhe.cn/docs/api/id/8
+---- ---- 基站定位 https://www.juhe.cn/docs/api/id/8
+---- ---- ---- 接口地址 http://v.juhe.cn/cell/get
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/cell/get?mnc=0&cell;=28655&lac;=17695&key;=您申请的APPKEY
+---- 电信基站 https://www.juhe.cn/docs/api/id/16
+---- ---- 电信基站定位 https://www.juhe.cn/docs/api/id/16
+---- ---- ---- 接口地址 http://v.juhe.cn/cdma/
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/cdma/?sid=14123&cellid=1099&nid=73&key=您申请的APPKEY
+---- 经纬度地址解析 https://www.juhe.cn/docs/api/id/15
+---- ---- 经纬度地址解析 https://www.juhe.cn/docs/api/id/15
+---- ---- ---- 接口地址 http://apis.juhe.cn/geo/
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/geo/?key=您申请的APPKEY&lat;=39.907314&lng;=116.391279&type;=1
+---- 地图坐标服务 https://www.juhe.cn/docs/api/id/32
+---- ---- 经纬度转换 https://www.juhe.cn/docs/api/id/32
+---- ---- ---- 接口地址 http://v.juhe.cn/offset/index
+---- ---- ---- 支持格式 json/xml/jsonp
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/offset/index?key=你申请的KEY&lat=39.908700982285396&lng=116.3974965092&type=6
+---- 谷歌POI https://www.juhe.cn/docs/api/id/9
+---- ---- 获取数据分类 https://www.juhe.cn/docs/api/id/9
+---- ---- ---- 接口地址 http://apis.juhe.cn/google/category
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://apis.juhe.cn/google/category?key=您申请的APPKEY&fid;=1
+---- ---- 指定城市内检索 https://www.juhe.cn/docs/api/id/9/aid/21
+---- ---- ---- 接口地址 http://apis.juhe.cn/google/region
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 post/get
+---- ---- ---- 请求示例 http://apis.juhe.cn/google/region?key=您申请的APPKEY&cid;=1&page;=1
+---- ---- 检索周边区域 https://www.juhe.cn/docs/api/id/9/aid/22
+---- ---- ---- 接口地址 http://apis.juhe.cn/google/local
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 post/get
+---- ---- ---- 请求示例 http://apis.juhe.cn/google/local?key=您申请的APPKEY&lng;=121.538123&lat;=31.677132&r;=2000
+---- 全国行政区域 https://www.juhe.cn/docs/api/id/196
+---- ---- 获取全国行政区域列表 https://www.juhe.cn/docs/api/id/196
+---- ---- ---- 接口地址 http://AreaData.api.juhe.cn/AreaHandler.ashx
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://AreaData.api.juhe.cn/AreaHandler.ashx?action=getArea&areaID=110101
+金融服务
+---- 银行卡类别查询 https://www.juhe.cn/docs/api/id/221
+---- ---- 银行卡类别查询 https://www.juhe.cn/docs/api/id/221
+---- ---- ---- 接口地址 http://bankcardsilk.api.juhe.cn/bankcardsilk/query.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://bankcardsilk.api.juhe.cn/bankcardsilk/query.php?num=6228480402564890018
+---- 企业工商及诉讼信息 https://www.juhe.cn/docs/api/id/225
+---- ---- 按企业关键字模糊查询返回列表 https://www.juhe.cn/docs/api/id/225
+---- ---- ---- 接口地址 http://tianyancha.api.juhe.cn/services/v3/open/search
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://tianyancha.api.juhe.cn/services/v3/open/search?keyword=百度网讯
+---- ---- 根据企业id获取工商详细信息 https://www.juhe.cn/docs/api/id/225/aid/814
+---- ---- ---- 接口地址 http://tianyancha.api.juhe.cn/services/v3/open/companydetail
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://tianyancha.api.juhe.cn/services/v3/open/companydetail?id=22822
+---- ---- 根据企业全名精确返回工商详细信息 https://www.juhe.cn/docs/api/id/225/aid/815
+---- ---- ---- 接口地址 http://tianyancha.api.juhe.cn/services/v3/open/detail
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://tianyancha.api.juhe.cn/services/v3/open/detail?name=杭州娃哈哈集团有限公司
+---- ---- 根据企业全名获取诉讼信息 https://www.juhe.cn/docs/api/id/225/aid/816
+---- ---- ---- 接口地址 http://tianyancha.api.juhe.cn/services/v3/open/lawsuit
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://tianyancha.api.juhe.cn/services/v3/open/lawsuit?name=北京百度网讯科技有限公司&pageNum=1
+---- 股票数据 https://www.juhe.cn/docs/api/id/21
+---- ---- 沪深股市 https://www.juhe.cn/docs/api/id/21
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/hs
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/hs?gid=sh601009&key=您申请的APPKEY
+---- ---- 香港股市 https://www.juhe.cn/docs/api/id/21/aid/62
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/hk
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/hk?num=00001&key=您申请的APPKEY
+---- ---- 美国股市 https://www.juhe.cn/docs/api/id/21/aid/75
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/usa
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/usa?gid=aapl&key=您申请的APPKEY
+---- ---- 香港股市列表 https://www.juhe.cn/docs/api/id/21/aid/632
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/hkall
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/hkall?key=您申请的KEY&page=1
+---- ---- 美国股市列表 https://www.juhe.cn/docs/api/id/21/aid/633
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/usaall
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/usaall?key=您申请的KEY&page=1
+---- ---- 深圳股市列表 https://www.juhe.cn/docs/api/id/21/aid/634
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/szall
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/szall?key=您申请的APPKEY&page=1
+---- ---- 沪股列表 https://www.juhe.cn/docs/api/id/21/aid/635
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/stock/shall
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get/post
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/stock/shall?key=您申请的KEY&page=1
+---- 净值数据 https://www.juhe.cn/docs/api/id/25
+---- ---- 开放式净值数据 https://www.juhe.cn/docs/api/id/25
+---- ---- ---- 接口地址 http://japi.juhe.cn/jingzhi/query.from
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get post
+---- ---- ---- 请求示例 http://japi.juhe.cn/jingzhi/query.from?page=1&pagesize=20&type=zhaiquan&key=YOURKEY
+---- 货币汇率 https://www.juhe.cn/docs/api/id/23
+---- ---- 人民币牌价 https://www.juhe.cn/docs/api/id/23
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/exchange/rmbquot
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/exchange/rmbquot?key=您申请的APPKEY
+---- ---- 外汇汇率 https://www.juhe.cn/docs/api/id/23/aid/41
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/exchange/frate
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/exchange/frate?key=您申请的APPKEY
+---- 黄金数据 https://www.juhe.cn/docs/api/id/29
+---- ---- 上海黄金交易所 https://www.juhe.cn/docs/api/id/29
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/gold/shgold
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/gold/shgold?key=您申请的APPKEY
+---- ---- 上海期货交易所 https://www.juhe.cn/docs/api/id/29/aid/60
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/gold/shfuture
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/gold/shfuture?key=您申请的APPKEY
+---- ---- 银行账户黄金 https://www.juhe.cn/docs/api/id/29/aid/61
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/finance/gold/bankgold
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/finance/gold/bankgold?key=您申请的APPKEY
+---- 汇率 https://www.juhe.cn/docs/api/id/80
+---- ---- 常用汇率查询 https://www.juhe.cn/docs/api/id/80
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/exchange/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/exchange/query?key=您申请的APPKEY
+---- ---- 货币列表 https://www.juhe.cn/docs/api/id/80/aid/204
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/exchange/list
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/exchange/list?key=您申请的APPKEY
+---- ---- 实时汇率查询换算 https://www.juhe.cn/docs/api/id/80/aid/205
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/exchange/currency
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/exchange/currency?key=您申请的APPKEY&from=JPY&to=BHD
+---- 股票查询 https://www.juhe.cn/docs/api/id/81
+---- ---- 股票查询 https://www.juhe.cn/docs/api/id/81
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/stock/query
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/stock/query?key=APPKEY&stock=%E6%B1%BD%E8%BD%A6%E4%B9%8B%E5%AE%B6
+---- 基金财务数据 https://www.juhe.cn/docs/api/id/28
+---- ---- 主要财务指标 https://www.juhe.cn/docs/api/id/28
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/fund/findata/main
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/fund/findata/main?key=您申请的APPKEY
+---- ---- 基金规模 https://www.juhe.cn/docs/api/id/28/aid/57
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/fund/findata/size
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/fund/findata/size?key=您申请的APPKEY
+---- ---- 资产配置 https://www.juhe.cn/docs/api/id/28/aid/58
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/fund/findata/config
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/fund/findata/config?key=您申请的APPKEY
+---- 重仓股基金 https://www.juhe.cn/docs/api/id/27
+---- ---- 重仓股基金 https://www.juhe.cn/docs/api/id/27
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/fund/zcgjj/
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/fund/zcgjj/?key=您申请的APPKEY
+---- 新三板实时股票信息 https://www.juhe.cn/docs/api/id/185
+---- ---- 实时股票信息 https://www.juhe.cn/docs/api/id/185
+---- ---- ---- 接口地址 http://touchstone.api.juhe.cn/ajax/data/realtime
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://touchstone.api.juhe.cn/ajax/data/realtime
+---- 暂停基金 https://www.juhe.cn/docs/api/id/26
+---- ---- 暂停申购的基金 https://www.juhe.cn/docs/api/id/26
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/fund/suspend/purch
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/fund/suspend/purch?key=您申请的APPKEY
+---- ---- 暂停赎回的基金 https://www.juhe.cn/docs/api/id/26/aid/54
+---- ---- ---- 接口地址 http://web.juhe.cn:8080/fund/suspend/redee
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://web.juhe.cn:8080/fund/suspend/redee?key=您申请的APPKEY
+---- 企业工商数据 https://www.juhe.cn/docs/api/id/205
+---- ---- 企业工商信息查询 https://www.juhe.cn/docs/api/id/205
+---- ---- ---- 接口地址 http://v.juhe.cn/youshu/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/youshu/query?key=&name=%E8%8B%8F%E5%B7%9E%E6%96%B0%E7%A7%91%E5%85%B0%E5%BE%B7%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+---- ---- 格式测试接口 https://www.juhe.cn/docs/api/id/205/aid/720
+---- ---- ---- 接口地址 http://v.juhe.cn/youshu/test
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/youshu/test?key=&name=%E8%8B%8F%E5%B7%9E%E6%96%B0%E7%A7%91%E5%85%B0%E5%BE%B7%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+---- 判断银行卡类型及真伪 https://www.juhe.cn/docs/api/id/197
+---- ---- 银行卡卡种查询 https://www.juhe.cn/docs/api/id/197
+---- ---- ---- 接口地址 http://detectionBankCard.api.juhe.cn/bankCard
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://detectionBankCard.api.juhe.cn/bankCard?key=f686f3eee51d0d8c50827dbff361e744&cardid=6226220113414063
+---- 手机实名制认证 https://www.juhe.cn/docs/api/id/208
+---- ---- 手机实名校验 https://www.juhe.cn/docs/api/id/208
+---- ---- ---- 接口地址 http://v.juhe.cn/telecom/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/telecom/query?key=&idcard=332329198801011234X&realname=%E8%91%A3%E5%A5%BD%E5%B8%85&mobile=18912341234
+---- 银行卡三元素检测 https://www.juhe.cn/docs/api/id/207
+---- ---- 银行卡三元素检测 https://www.juhe.cn/docs/api/id/207
+---- ---- ---- 接口地址 http://v.juhe.cn/verifybankcard3/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/verifybankcard3/query?key=&realname=%E5%95%86%E5%9B%9B%E5%A3%81&bankcard=6217003180000902693&idcard=330329198903050011
+---- ---- 查询记录清单 https://www.juhe.cn/docs/api/id/207/aid/733
+---- ---- ---- 接口地址 http://v.juhe.cn/verifybankcard3/querylogs
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/verifybankcard3/querylogs?key=您申请的key
+---- 银行卡四元素校验 https://www.juhe.cn/docs/api/id/213
+---- ---- 银行卡四元素检测 https://www.juhe.cn/docs/api/id/213
+---- ---- ---- 接口地址 http://v.juhe.cn/verifybankcard4/query
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/verifybankcard4/query.php?key=&bankcard=6259656360701234&realname=你好帅&idcard=310329198903010011&mobile=18912341234
+---- ---- 查询记录清单 https://www.juhe.cn/docs/api/id/213/aid/735
+---- ---- ---- 接口地址 http://v.juhe.cn/verifybankcard4/querylogs
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://v.juhe.cn/verifybankcard4/querylogs?key=您申请的key
+体育赛事
+---- 足球赛事球员信息大全 https://www.juhe.cn/docs/api/id/222
+---- ---- 足球球队教练信息 https://www.juhe.cn/docs/api/id/222
+---- ---- ---- 接口地址 http://v.juhe.cn/football/coach_info.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/coach_info?league_id=128&team_id=3148&key=YOURKEY
+---- ---- 足球比赛阵容 https://www.juhe.cn/docs/api/id/222/aid/796
+---- ---- ---- 接口地址 http://v.juhe.cn/football/lineup.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/lineup.php?game_id=5000919&key=YOURKEY
+---- ---- 足球比赛直播事件 https://www.juhe.cn/docs/api/id/222/aid/797
+---- ---- ---- 接口地址 http://v.juhe.cn/football/live_event.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/live_event.php?game_id=5000919&key=YOURKEY
+---- ---- 足球球队统计 https://www.juhe.cn/docs/api/id/222/aid/798
+---- ---- ---- 接口地址 http://v.juhe.cn/football/teamstats.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/teamstats.php?game_id=7882149&team_id=3148&season_id=2015&key=YOURKEY
+---- ---- 球员单场统计 https://www.juhe.cn/docs/api/id/222/aid/799
+---- ---- ---- 接口地址 http://v.juhe.cn/football/player_single_stats.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/player_single_stats.php?game_id=7882141&season_id=2015&team_id=3152&key=YOURKEY
+---- ---- 球员赛季统计 https://www.juhe.cn/docs/api/id/222/aid/800
+---- ---- ---- 接口地址 http://v.juhe.cn/football/player_season_stats.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/player_season_stats.php?player_id=552&season_id=2015&team_id=116&key=YOURKEY
+---- ---- 足球积分榜 https://www.juhe.cn/docs/api/id/222/aid/801
+---- ---- ---- 接口地址 http://v.juhe.cn/football/scorerank.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/scorerank.php?league_id=128&key=YOURKEY
+---- ---- 足球射手榜 https://www.juhe.cn/docs/api/id/222/aid/802
+---- ---- ---- 接口地址 http://v.juhe.cn/football/goalrank.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/goalrank.php?league_id=110&season_id=2015&key=YOURKEY
+---- ---- 足球助攻榜 https://www.juhe.cn/docs/api/id/222/aid/803
+---- ---- ---- 接口地址 http://v.juhe.cn/football/assistrank.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/assistrank.php?league_id=110&season_id=2015&key=YOURKEY
+---- ---- 足球赛程查询 https://www.juhe.cn/docs/api/id/222/aid/804
+---- ---- ---- 接口地址 http://v.juhe.cn/football/query_schedule.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/query_schedule.php?league_id=128&season_id=2014&game_id=5000760&key=YOURKEY
+---- ---- 球队信息 https://www.juhe.cn/docs/api/id/222/aid/811
+---- ---- ---- 接口地址 http://v.juhe.cn/football/team_info.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/team_info.php?league_id=128&team_id=3148&key=YOURKEY
+---- ---- 足球球员信息 https://www.juhe.cn/docs/api/id/222/aid/812
+---- ---- ---- 接口地址 http://v.juhe.cn/football/player_info.php
+---- ---- ---- 支持格式 json
+---- ---- ---- 请求方式 get
+---- ---- ---- 请求示例 http://v.juhe.cn/football/player_info.php?league_id=128&team_id=3148&player_id=103170&key=YOURKEY
+---- NBA赛事 https://www.juhe.cn/docs/api/id/92
+---- ---- NBA常规赛赛程赛果 https://www.juhe.cn/docs/api/id/92
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/basketball/nba
+---- ---- ---- 支持格式 json/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/basketball/nba?key=您申请的KEY
+---- ---- 球队赛程赛事查询 https://www.juhe.cn/docs/api/id/92/aid/247
+---- ---- ---- 接口地址 http://op.juhe.cn/onebox/basketball/team
+---- ---- ---- 支持格式 jsom/xml
+---- ---- ---- 请求方式 http get/post
+---- ---- ---- 请求示例 http://op.juhe.cn/onebox/basketball/team?key=APPKEY&team=%E7%83%AD%E7%81%AB
+---- ---- 球队对战赛赛程查询 https://www.juhe.cn/docs/api/id/92/aid/248
+Snapshot saved to /Users/Rick/Library/Caches/PyCharm50/snapshots/spider_API.pstat
